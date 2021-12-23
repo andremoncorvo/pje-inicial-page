@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ebf0f3;
+}
+
+.header {
+    background-color: #0078AA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 19px 0px 19px;
+}
+
+.header-left-content {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 5px 0px;
+    gap: 10px;
+}
+
+.header-logo {
+    width: 44.33px;
+    height: 35px;
+}
+
+.header-span {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 0px 2px 0px;
+}
+
+.header-right-content {
+    display: flex;
+}
+
+.navigation-bar-itens {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 30px 0px 0px;
+}
+
+.first-main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    padding: 95px 0px;
+}
+
+.brasao {
+    width: 100px;
+    height: 100px;
+}
+
+.first-text {
+    font-size: 24px;
+    color: #054863;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #054863;
+}
+
+.second-main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-text-link {
+    font-size: 14px;
+    color: #337ab7;
+}
+
+.button {
+    height: 45px;
+    width: 273px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #3f92b7 url(cerfiticado-digital-login.jpg) 0 center no-repeat;
+    padding: 0px 0px 0px 50px;
+    border: none;
+    border-radius: 2px;
+}
+
+.second-text-link {
+    font-size: 14px;
+    color: #337ab7;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-user {
+    width: 273px;
+    height: 40px;
+    padding: 0px 0px 0px 8px;
+    border: 1px solid #cccccc;
+}
+
+.login-password {
+    width: 273px;
+    height: 40px;
+    padding: 0px 0px 0px 8px;
+    border: 1px solid #cccccc;
+}
+
+.new-password {
+    font-size: 14px;
+    color: #337ab7;
+}
+
+.enter-button {
+    background: #0084AC;
+    color: #FFFFFF;
+    width: 75px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.enter-button:hover {
+    background-color: #029bca;
+}
+
+.update {
+    color: #666666;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
